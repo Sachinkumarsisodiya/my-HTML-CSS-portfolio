@@ -1,0 +1,102 @@
+header{
+	background-image: url('IMG/house01.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:20px;
+	text-align:center-left;
+}
+.header-wrp{
+	width: 80%;
+    margin: auto;
+	display: flex;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+	padding: 200px 0 40px 0;
+}
+
+body {
+    line-height: 1.6;
+	
+}
+nav ul{
+	margin :0;
+	list-style: none;
+	  
+ }
+ header .menu ul{
+	display:flex;
+	flex-wrap:wrap;
+}
+header .menu ul li a{
+	margin: 20px;
+    text-decoration: none;
+	background: #007effa1;
+    color: #fff;
+    padding: 3px 17px;
+    border: 1px solid #007effa1;
+	transition:1s;
+	transform: rotate(0deg);
+}
+header .menu ul li a:hover{
+	background: #fff;
+	color: #007effa1;
+}
+	.about{
+		text-align:center;
+	}
+
+.form{
+	margin:40px;
+	
+}
+.address h4{
+	color:green;
+	font-size:25px;
+	font-family:sans-serif;
+}
+.conactpage{
+	display:flex;
+	justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.map{
+	display:flex;
+	justify-content:center;
+}
+.form input{
+	border: none;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    margin: 0;
+	display: block;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+	font-size:20px;
+  }
+ .header-wrp{
+	    padding: 50px;
+}
+.conactpage{
+	display:block;
+    width: 90%;
+    margin: auto;
+}
+.about h2{
+		text-align:center;
+		margin:0px;
+	}
+
+}
+@media only screen and (max-width: 200px) {
+  body {
+    background-color:pink;
+	font-size:20px;
+
+	
+  }
